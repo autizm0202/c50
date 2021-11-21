@@ -1,0 +1,30 @@
+h1 {
+    color: brown;
+
+}
+
+* {
+    border: solid;
+    
+
+}
+.header{
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information{
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: end;
+}
